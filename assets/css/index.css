@@ -1,6 +1,6 @@
 /* Font */
 @font-face{
-    src: url(fonts/Overpass-VariableFont_wght.ttf);
+    src: url(../../fonts/Overpass-VariableFont_wght.ttf);
     font-family:overpass;
 }
 
@@ -24,7 +24,7 @@ li{
 
 header{
     height: 500px;
-    background-image: url(images/bg-pattern-intro-mobile.svg);
+    background-image: url(../../images/bg-pattern-intro-mobile.svg);
     background-position: 180px -450px;
     background-repeat: no-repeat;
     background-color: hsl(353, 100%, 62%);
