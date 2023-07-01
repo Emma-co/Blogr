@@ -1,0 +1,348 @@
+/* Font */
+@font-face{
+    src: url(fonts/Overpass-VariableFont_wght.ttf);
+    font-family:overpass;
+}
+
+/* Web */
+*{
+    margin: 0;
+}
+
+/* Style for the body */
+body{
+    font-family: overpass;
+    overflow-x: hidden;
+    font-weight: 300;
+}
+
+li{
+    list-style: none;
+}
+
+/* Style for the header */
+
+header{
+    height: 500px;
+    background-image: url(images/bg-pattern-intro-mobile.svg);
+    background-position: 180px -450px;
+    background-repeat: no-repeat;
+    background-color: hsl(353, 100%, 62%);
+    border-radius: 0px 0px 0px 60px;
+    color: white;
+    width: auto;
+}
+
+    /* Style for the nav */
+
+    nav{
+        display: flex;
+        margin-left: 250px;
+        margin-top: -35px;
+        height: 40px;
+        width: fit-content;
+    }
+
+    header #logo{
+        margin-top: 50px;
+        margin-left: 100px;
+        width: fit-content;
+    }
+
+    header nav #menus{
+        width: 300px;
+        display: flex;
+        width: fit-content;
+    }
+
+    header nav ul li{
+        list-style: none;
+        width: fit-content;
+        padding: 0px 20px;
+    }
+
+    header nav #Logins{
+        margin-left: 450px;
+        width: fit-content;
+    }
+
+    header nav div button{
+        margin-left: 25px;   
+        padding: 10px 20px;
+        background-color: white;
+        border-style: none;
+        border-radius: 20px;
+        color: hsl(13, 100%, 72%);
+        cursor: pointer;
+        width: fit-content;
+    }
+
+    header nav div button:hover{
+        background-color: hsl(353, 100%, 62%);
+        color: white;
+        transition: 0.3s ease-in;
+    }
+
+    header nav div span{
+        cursor: pointer;
+        width: fit-content;
+    }
+
+    .accordion{
+        cursor: pointer;
+        width: fit-content;
+    }
+
+
+    .active, .accordion:hover{
+        transition: 0.5s ease-in;
+        background-color: hsl(13, 100%, 72%);
+        padding: 10px;
+    }
+
+    .panel{
+        background-color: white;
+        color: hsl(353, 100%, 62%);
+        padding: 10px;
+        display: none;
+        overflow: hidden;
+        position: relative;
+        width: fit-content;
+    }
+
+    .panel p{
+        margin-bottom: 20px;
+        width: fit-content;
+    }
+
+    .panel p:hover{
+        border-bottom: 1px solid maroon;
+        transition: 0.9s ease-in;
+        cursor: pointer;
+    }
+
+    /* Style for the nav ends */
+
+    /* Style for the header caption */
+
+    #header-caption{
+        margin-left: 300px;
+        margin-top: 100px;
+        width: fit-content;
+    }
+
+    #header-caption #hc-heading{
+        font-size: 50px;
+        width: fit-content;
+    }
+
+    #header-caption #hc-paragraph{
+        margin-top: 15px;
+        color: rgba(255, 255, 255, 0.692);
+        margin-left: 150px;
+        width: fit-content;
+    }
+
+    #hc-buttons{
+        margin-top: 30px;
+        margin-left: 200px;
+        width: fit-content;
+    }
+
+    #start{
+        border-radius: 20px;
+        border-style: none;
+        padding: 10px 20px;
+        background-color: white;
+        color: hsl(353, 100%, 62%);
+        cursor: pointer;
+        width: fit-content;
+    }
+
+    #learn{
+        border-radius: 20px;
+        border-style: none;
+        padding: 10px 20px;
+        background-color: transparent;
+        color: white;
+        border:1px solid white;
+        margin-left: 5px;
+        cursor: pointer;
+        width: fit-content;
+    }
+
+    #start:hover{
+        background-color: hsl(353, 100%, 62%);
+        color: white;
+        transition: 0.3s ease;
+        width: fit-content;
+    }
+
+    #learn:hover{
+        background-color: white;
+        color: hsl(353, 100%, 62%);
+        transition: 0.3s ease;
+        width: fit-content;
+    }
+
+    /*style for header caption ends  */
+
+/* Style for header ends */
+
+/* Style for the main */
+
+#main-header{
+    margin-left: 400px;
+    color: hsl(237, 17%, 21%);
+    font-size: 35px;
+    font-weight: 500;
+    margin-top: 100px;
+}
+
+    /* Style for the sections */
+
+ 
+        /* First section */
+            .sect1-header{
+                color: hsl(237, 17%, 21%);
+                width: fit-content;
+            }
+
+            .sect1-prg{
+                color: hsl(237, 23%, 32%);
+                width: fit-content;
+                font-size: 16px;
+                margin-top: 30px;
+            }
+
+            #sect1-header2{
+                width: fit-content;
+                margin-top: 30px;
+            }
+
+            #main-img1{
+                margin-left: 600px;
+                margin-top: -400px;
+            }
+
+            #sect1-header1, #sect1-prg1, #sect1-header2, #sect1-prg2{
+                position: relative;
+                top: 200px;
+                left: 50px;
+            }
+        /* End of first section */
+
+        /* Second section */
+        #section2{
+            margin-top: 100px;
+            height: 425px;
+            width: 1345px;
+            background-color: hsl(237, 23%, 32%);
+            background-image: url(images/bg-pattern-circles.svg);
+            background-repeat: no-repeat;
+            background-size: 1000px;
+            border-radius: 0px 120px 0px 120px;
+        }
+        
+        #sect2-cont{
+            margin-left: 700px;
+            position: relative;
+            top: -450px;
+            color: white;
+            width: fit-content;
+        }
+        #section2-header{
+            margin-bottom: 20px;
+            font-weight: 300;
+            width: fit-content;
+        }
+
+        #section2 img{
+            position: relative;
+            top: -50px;
+            left: 50px;
+        }
+        /* End of second section */
+
+        /* Third section */
+        #section3{
+            margin-top: 105px;
+        }
+
+        #section3 img{
+            margin-left: -285px;
+        }
+
+        #sect3-cont{
+            width: fit-content;
+            margin-left: 775px;
+            position: relative;
+            top: -240px;
+            margin-top: -350px;
+        }
+
+        #sect3-cont h2{
+            font-weight: 600;
+            color: hsl(237, 17%, 21%);
+            margin-bottom: 30px;
+        }
+
+        #sect3-h2, #sect-prg2{
+            margin-top: 80px;
+        }
+
+        /* End of section */
+
+    /* End of style for the sections */
+
+/* End of main */
+
+    /* Footer */
+    footer{
+        background-color: hsl(207, 14%, 16%);
+        height: 350px;
+        color: white;
+        border-radius: 0px 100px 0px 0px;
+        margin-top: 70px;
+    }
+
+    footer img{
+        margin-left: 140px;
+        position: relative;
+        top: 50px;
+    }
+
+    footer nav{
+        margin-left: 500px;
+        margin-top: 20px;
+    }
+
+    #footer-menu{
+        display: flex;
+        height: fit-content;
+    }
+
+    #footer-menu li{
+        padding: 0px 50px 0 50px;
+    }
+
+    #footer-nav{
+        height: fit-content;
+    }
+        
+    #footer-menu li div{
+        margin-top: 20px;
+    }
+
+    #footer-menu li div p{
+        padding: 5px;
+        font-weight: 100;
+        color: hsl(240, 2%, 79%);
+        transition: 0.7s ease-in;
+    }
+
+    #footer-menu li div p:hover{
+        border-bottom: 1px solid white;
+        cursor: pointer;
+    }
+/* End of footer */
